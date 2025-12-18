@@ -119,44 +119,44 @@ A API possui os seguintes endpoints:
 - [x] Guardar as modificações com `git commit -m "documentado os DTOs"`
 
 ### 6️⃣ Documentação do Endpoint Raiz
-- [ ] Abrir o arquivo `src/app.controller.ts`
-- [ ] Importar decorators do `@nestjs/swagger`:
+- [x] Abrir o arquivo `src/app.controller.ts`
+- [x] Importar decorators do `@nestjs/swagger`:
   - `@ApiTags`
   - `@ApiOperation`
   - `@ApiResponse`
-- [ ] Adicionar `@ApiTags('root')` no controller
-- [ ] Documentar o endpoint `GET /`:
+- [x] Adicionar `@ApiTags('root')` no controller
+- [x] Documentar o endpoint `GET /`:
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiResponse()` para status 200 com description
-- [ ] Guardar as modificações com `git commit -m "documentado o endpoint raiz"`
+- [x] Guardar as modificações com `git commit -m "documentado o endpoint raiz"`
 
 ### 7️⃣ Documentação dos Endpoints de Tarefas - Listar Todas
-- [ ] Abrir o arquivo `src/tasks/tasks.controller.ts`
-- [ ] Importar decorators do `@nestjs/swagger`:
+- [x] Abrir o arquivo `src/tasks/tasks.controller.ts`
+- [x] Importar decorators do `@nestjs/swagger`:
   - `@ApiTags`
   - `@ApiOperation`
   - `@ApiResponse`
-- [ ] Adicionar `@ApiTags('tasks')` no controller
-- [ ] Documentar o endpoint `GET /tasks` (método `findAll`):
+- [x] Adicionar `@ApiTags('tasks')` no controller
+- [x] Documentar o endpoint `GET /tasks` (método `findAll`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiResponse()` para status 200 com description e type
 
 ### 8️⃣ Documentação dos Endpoints de Tarefas - Buscar por ID
-- [ ] Documentar o endpoint `GET /tasks/:id` (método `findOne`):
+- [x] Documentar o endpoint `GET /tasks/:id` (método `findOne`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiResponse()` para status 200 com description e type
   - Adicionar `@ApiResponse()` para status 404 com description
 
 ### 9️⃣ Documentação dos Endpoints de Tarefas - Criar
-- [ ] Documentar o endpoint `POST /tasks` (método `create`):
+- [x] Documentar o endpoint `POST /tasks` (método `create`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiBody()` com type CreateTaskDto
   - Adicionar `@ApiResponse()` para status 201 com description e type
   - Adicionar `@ApiResponse()` para status 400 com description
 
 ### 🔟 Documentação dos Endpoints de Tarefas - Atualizar
-- [ ] Documentar o endpoint `PUT /tasks/:id` (método `update`):
+- [x] Documentar o endpoint `PUT /tasks/:id` (método `update`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiBody()` com type UpdateTaskDto
@@ -165,32 +165,32 @@ A API possui os seguintes endpoints:
   - Adicionar `@ApiResponse()` para status 400 com description
 
 ### 1️⃣1️⃣ Documentação dos Endpoints de Tarefas - Deletar
-- [ ] Documentar o endpoint `DELETE /tasks/:id` (método `remove`):
+- [x] Documentar o endpoint `DELETE /tasks/:id` (método `remove`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiResponse()` para status 204 com description
   - Adicionar `@ApiResponse()` para status 404 com description
-- [ ] Guardar as modificações com `git commit -m "documentado o endpoint de tarefas(\tasks)"`
+- [x] Guardar as modificações com `git commit -m "documentado o endpoint de tarefas(\tasks)"`
 
 ### 1️⃣2️⃣ Testes e Validação Final
-- [ ] Executar `npm run start:dev` e acessar o Swagger UI
-- [ ] Verificar se todos os endpoints estão documentados
-- [ ] Verificar se todos os schemas (DTOs e entidades) estão documentados
-- [ ] Testar cada endpoint através do Swagger UI:
+- [x] Executar `npm run start:dev` e acessar o Swagger UI
+- [x] Verificar se todos os endpoints estão documentados
+- [x] Verificar se todos os schemas (DTOs e entidades) estão documentados
+- [x] Testar cada endpoint através do Swagger UI:
   - Testar GET / (endpoint raiz)
   - Testar POST /tasks (criar tarefa)
   - Testar GET /tasks (listar todas)
   - Testar GET /tasks/:id (buscar por ID)
   - Testar PUT /tasks/:id (atualizar tarefa)
   - Testar DELETE /tasks/:id (deletar tarefa)
-- [ ] Verificar se as descrições estão claras e os exemplos são adequados
-- [ ] Executar os testes com `npm test` para garantir que nada quebrou
-- [ ] Fazer commit das alterações
-- [ ] Fazer push para o repositório fork
-- [ ] Criar um Pull Request (opcional, para revisão)
+- [x] Verificar se as descrições estão claras e os exemplos são adequados
+- [x] Executar os testes com `npm test` para garantir que nada quebrou
+- [x] Fazer commit das alterações
+- [x] Fazer push para o repositório fork
+- [] Criar um Pull Request (opcional, para revisão)
 
 
-- [ ] Publicar modificações no repositório com `git push`
+- [x] Publicar modificações no repositório com `git push`
 
 ## 📖 Recursos Úteis
 
