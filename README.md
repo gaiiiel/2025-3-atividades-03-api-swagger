@@ -66,15 +66,15 @@ A API possui os seguintes endpoints:
 - [x] Importar os módulos necessários do `@nestjs/swagger`:
   - `SwaggerModule`
   - `DocumentBuilder`
-- [ ] Criar a configuração do Swagger usando `DocumentBuilder`:
+- [x] Criar a configuração do Swagger usando `DocumentBuilder`:
   - Definir título: "API de Tarefas (TODO List)"
   - Definir descrição: "API para gerenciamento de tarefas da turma Infoweb 2025"
   - Definir versão: "1.0"
   - Adicionar tag: "tasks"
-- [ ] Criar o documento Swagger com `SwaggerModule.createDocument()`
-- [ ] Configurar a rota de acesso ao Swagger UI (sugestão: `/api-docs`)
-- [ ] Testar o acesso ao Swagger UI em `http://localhost:3000/api-docs`
-- [ ] Guardar as modificações com `git commit -m "configurado o ambiente swagger"`
+- [x] Criar o documento Swagger com `SwaggerModule.createDocument()`
+- [x] Configurar a rota de acesso ao Swagger UI (sugestão: `/api-docs`)
+- [x] Testar o acesso ao Swagger UI em `http://localhost:3000/api-docs`
+- [x] Guardar as modificações com `git commit -m "configurado o ambiente swagger"`
 
 ### 3️⃣ Documentação da Entidade Task
 - [x] Abrir o arquivo `src/tasks/task.entity.ts`
@@ -95,28 +95,28 @@ A API possui os seguintes endpoints:
 - [x] Guardar as modificações com `git commit -m "documentado as entidades"`
 
 ### 4️⃣ Documentação do CreateTaskDto
-- [ ] Abrir o arquivo `src/tasks/dto/create-task.dto.ts`
-- [ ] Importar o decorator `@ApiProperty` do `@nestjs/swagger`
-- [ ] Adicionar `@ApiProperty()` para o campo `title`:
+- [x] Abrir o arquivo `src/tasks/dto/create-task.dto.ts`
+- [x] Importar o decorator `@ApiProperty` do `@nestjs/swagger`
+- [x] Adicionar `@ApiProperty()` para o campo `title`:
   - Adicionar description, example, minLength, maxLength
-- [ ] Adicionar `@ApiProperty()` para o campo `description`:
+- [x] Adicionar `@ApiProperty()` para o campo `description`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `status`:
+- [x] Adicionar `@ApiPropertyOptional()` para o campo `status`:
   - Adicionar enum, description, default, example
   - Usar `@ApiPropertyOptional` pois o campo é opcional
-- [ ] Verificar a documentação do DTO no Swagger UI (schema CreateTaskDto)
+- [x] Verificar a documentação do DTO no Swagger UI (schema CreateTaskDto)
 
 ### 5️⃣ Documentação do UpdateTaskDto
-- [ ] Abrir o arquivo `src/tasks/dto/update-task.dto.ts`
-- [ ] Importar `@ApiPropertyOptional` do `@nestjs/swagger`
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `title`:
+- [x] Abrir o arquivo `src/tasks/dto/update-task.dto.ts`
+- [x] Importar `@ApiPropertyOptional` do `@nestjs/swagger`
+- [x] Adicionar `@ApiPropertyOptional()` para o campo `title`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `description`:
+- [x] Adicionar `@ApiPropertyOptional()` para o campo `description`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `status`:
+- [x] Adicionar `@ApiPropertyOptional()` para o campo `status`:
   - Adicionar enum, description, example
-- [ ] Verificar a documentação do DTO no Swagger UI (schema UpdateTaskDto)
-- [ ] Guardar as modificações com `git commit -m "documentado os DTOs"`
+- [x] Verificar a documentação do DTO no Swagger UI (schema UpdateTaskDto)
+- [x] Guardar as modificações com `git commit -m "documentado os DTOs"`
 
 ### 6️⃣ Documentação do Endpoint Raiz
 - [ ] Abrir o arquivo `src/app.controller.ts`
