@@ -55,15 +55,15 @@ A API possui os seguintes endpoints:
 ## ✅ Atividades (Checklist)
 
 ### 1️⃣ Preparação do Ambiente
-- [ ] **Fazer fork deste repositório** para sua conta do GitHub
-- [ ] Clonar o fork para sua máquina local
-- [ ] Instalar as dependências com `npm install`
-- [ ] Verificar se o projeto está funcionando com `npm run start:dev`
-- [ ] Acessar a API em `http://localhost:3000` e verificar o endpoint raiz
+- [x] **Fazer fork deste repositório** para sua conta do GitHub
+- [x] Clonar o fork para sua máquina local
+- [x] Instalar as dependências com `npm install`
+- [x] Verificar se o projeto está funcionando com `npm run start:dev`
+- [x] Acessar a API em `http://localhost:3000` e verificar o endpoint raiz
 
 ### 2️⃣ Configuração do Swagger
-- [ ] Abrir o arquivo `src/main.ts`
-- [ ] Importar os módulos necessários do `@nestjs/swagger`:
+- [x] Abrir o arquivo `src/main.ts`
+- [x] Importar os módulos necessários do `@nestjs/swagger`:
   - `SwaggerModule`
   - `DocumentBuilder`
 - [ ] Criar a configuração do Swagger usando `DocumentBuilder`:
